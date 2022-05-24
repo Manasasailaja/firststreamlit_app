@@ -33,7 +33,7 @@ fruitvice_response=requests.get("https://www.fruityvice.com/api/fruit/watermelon
 
 fruitvice_normalized=pandas.json_normalize(fruitvice_response.json())
 streamlit.dataframe(fruitvice_normalized)
-snowflake-connector-python
+
 
 import snowflake.connector
 
