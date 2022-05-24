@@ -31,6 +31,8 @@ import requests
 fruitvice_response=requests.get("https://www.fruityvice.com/api/fruit/watermelon")
 
 
+import snowflake.connector
+
 
 
 fruitvice_normalized=pandas.json_normalize(fruitvice_response.json())
