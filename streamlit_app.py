@@ -25,7 +25,7 @@ streamlit.header('FruityVice Fruit Advice!!')
 fruit_choice=streamlit.text_input('what fruit would you like to information about?''Kiwi')
 streamlit.write('The user entered',fruit_choice)
 
-snowflake-connector-python
+
 
 import requests
 fruitvice_response=requests.get("https://www.fruityvice.com/api/fruit/watermelon")
